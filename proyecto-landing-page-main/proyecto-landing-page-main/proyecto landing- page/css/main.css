@@ -1,0 +1,28 @@
+@import './navbar.css';
+@import './wrapper.css;';
+@import './hero.css';
+@import './content.css';
+
+:root{
+--black: #202020;
+--withe: #FFFFFF;
+--purple: #301E67;
+--bg: #ECF9FF;
+--font: system-ui;
+--red: #630606;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:fantasy, 'Arial Narrow Bold', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font);
+    background-color: var(--bg);
+}
